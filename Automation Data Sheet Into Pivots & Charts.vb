@@ -2,8 +2,9 @@
 ' are based on the data sheet in the workbook. Note the pivot tables & line charts are dynamic based on the three button selection and appear on same sheet.
 
 
-
-'Button one ************************
+'************************
+'Button one " Revenue By Company Month & Year"  
+'************************
 
 Sub Comp_Month_Year()
 '
@@ -34,8 +35,9 @@ Sub Comp_Month_Year()
     
 End Sub
 
-
-'Button two ************************
+'************************
+'Button two " Revenue by Quater & Company" 
+'************************
 Sub Quarter_Company()
 '
 ' Quarter_Company Macro
@@ -60,8 +62,9 @@ Sub Quarter_Company()
     Application.ScreenUpdating = True
 End Sub
 
-
-'Button three ************************
+'************************
+'Button three " Revenue By Year & Month"
+'************************
 Sub Year_Month()
 '
 ' Year_Month Macro
